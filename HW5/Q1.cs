@@ -8,7 +8,7 @@ namespace HW5 {
         const int N = 10_000_000;
         const double PERCENT_A = 0.55;
         const int TRIALS = 100;
-        static readonly int[] SAMPLE_SIZES = new int[] { 50, 100, 200, 400 };
+        static readonly int[] SAMPLE_SIZES = new int[] { 20, 100, 400, 1000, 1200, 1400, 300 };
 
         static void Main(string[] args) {
             Q1a();
